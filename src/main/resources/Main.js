@@ -32,8 +32,3 @@ registerEventListener(DamageEntityEvent.static, new (Java.extend(Consumer.static
         System.out.println("Im Javascript event listener");
     }
 })));
-
-if (!events.isEmpty()) {
-    plugin.generateDynamicListener();
-}
-events.clear();
